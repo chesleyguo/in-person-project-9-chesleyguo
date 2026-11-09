@@ -7,23 +7,21 @@ function AboutPage() {
         <div className="about-content">
           <img
             src="/images/profile.jpg"
-            alt="Profile"
+            alt="Chesley Guo"
             className="profile-image"
             onError={(e) => {
               e.target.src = 'https://via.placeholder.com/300x300?text=Profile'
             }}
           />
           <div className="about-text">
-            <h2>Hello! I'm a passionate developer</h2>
+            <h2>Hello! I'm Chesley Guo</h2>
             <p>
-              I love creating web applications that solve real problems and
-              provide great user experiences. With a strong foundation in both
-              front-end and back-end technologies, I enjoy bringing ideas to life
-              through code.
+              I'm a student at UC Berkeley passionate about software engineering,
+              interactive web applications, and artificial intelligence.
             </p>
             <p>
-              Currently focused on React, Node.js, and modern web technologies.
-              I'm always eager to learn new things and take on challenging projects.
+              I enjoy building modern, accessible, and data-driven web applications
+              at the intersection of design and intelligence.
             </p>
           </div>
         </div>
@@ -35,18 +33,16 @@ function AboutPage() {
           <div className="skill-category">
             <h3>Frontend</h3>
             <ul>
-              <li>React & React Router</li>
               <li>JavaScript (ES6+)</li>
-              <li>HTML5 & CSS3</li>
-              <li>Responsive Design</li>
+              <li>React & React Router</li>
+              <li>CSS3 & Layouts</li>
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Backend</h3>
+            <h3>Backend & Data</h3>
             <ul>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>RESTful APIs</li>
+              <li>Python & Data</li>
+              <li>Node.js & APIs</li>
               <li>MongoDB</li>
             </ul>
           </div>
@@ -54,9 +50,8 @@ function AboutPage() {
             <h3>Tools</h3>
             <ul>
               <li>Git & GitHub</li>
-              <li>VS Code</li>
-              <li>npm/yarn</li>
               <li>Vite</li>
+              <li>Figma</li>
             </ul>
           </div>
         </div>
@@ -66,24 +61,17 @@ function AboutPage() {
         <h2>My Journey</h2>
         <div className="timeline">
           <div className="timeline-item">
+            <div className="timeline-date">2026</div>
+            <div className="timeline-content">
+              <h3>AI Study Assistant & Berkeley Blue UI Kit</h3>
+              <p>AI-powered study planning and an accessible component library</p>
+            </div>
+          </div>
+          <div className="timeline-item">
             <div className="timeline-date">2025</div>
             <div className="timeline-content">
-              <h3>Full Stack Developer</h3>
-              <p>Building modern web applications with React and Node.js</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-date">2024</div>
-            <div className="timeline-content">
-              <h3>Started Web Development</h3>
-              <p>Began learning HTML, CSS, and JavaScript</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-date">2023</div>
-            <div className="timeline-content">
-              <h3>Computer Science Student</h3>
-              <p>Started my journey in programming</p>
+              <h3>Cal Campus Hub & Climate Viz Dashboard</h3>
+              <p>Full-stack campus dashboard and interactive climate data visualization</p>
             </div>
           </div>
         </div>

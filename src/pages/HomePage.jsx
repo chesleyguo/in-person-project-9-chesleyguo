@@ -1,4 +1,4 @@
-// TODO: Import Link from react-router-dom for navigation
+import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
 function HomePage() {
@@ -18,19 +18,18 @@ function HomePage() {
   return (
     <div className="home-page">
       <section className="hero">
-        <h1>{greeting}! I'm a Full Stack Developer</h1>
+        <h1>{greeting}! I'm Chesley Guo</h1>
         <p className="hero-subtitle">
-          I build modern web applications with React, Node.js, and more.
+          UC Berkeley Student | Frontend & AI Developer
         </p>
 
-        {/* TODO: Replace these buttons with Link components for navigation */}
         <div className="hero-buttons">
-          <button className="btn btn-primary">
+          <Link to="/projects" className="btn btn-primary">
             View My Projects
-          </button>
-          <button className="btn btn-secondary">
+          </Link>
+          <Link to="/contact" className="btn btn-secondary">
             Get In Touch
-          </button>
+          </Link>
         </div>
       </section>
 
@@ -39,18 +38,18 @@ function HomePage() {
         <div className="skills-grid">
           <div className="skill-card">
             <span className="skill-icon">⚛️</span>
-            <h3>React Development</h3>
-            <p>Building interactive UIs with modern React patterns</p>
+            <h3>Frontend Development</h3>
+            <p>Interactive, accessible web applications with React</p>
           </div>
           <div className="skill-card">
-            <span className="skill-icon">🎨</span>
-            <h3>Responsive Design</h3>
-            <p>Creating beautiful, mobile-first experiences</p>
+            <span className="skill-icon">🤖</span>
+            <h3>AI Applications</h3>
+            <p>Bringing artificial intelligence into everyday tools</p>
           </div>
           <div className="skill-card">
-            <span className="skill-icon">🚀</span>
-            <h3>Performance</h3>
-            <p>Optimizing for speed and user experience</p>
+            <span className="skill-icon">📊</span>
+            <h3>Data-Driven Design</h3>
+            <p>Turning data into clear, interactive visualizations</p>
           </div>
         </div>
       </section>
